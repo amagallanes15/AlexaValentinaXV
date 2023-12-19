@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(189, 145, 226);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/*First Picture Invitation title*/
+.firstPicName {
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    color:whitesmoke; 
+    font-size: 100px; 
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+}
+.overlay-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+/*Information and Link to Location*/
+.infoAndLink{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(229, 190, 246);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+}
+/*Countdown*/
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+li span{
+    display: block;
+    font-size: 3rem;
+    color: blueviolet;
+}
+li.separator{
+    margin: 0 10px;
+    font-size: 3rem;
+    line-height: 1;
+    color: aquamarine;
+}
+li:first-of-type{
+    margin-right: 5rem;
+}
+.countdownSec{
+    min-height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+}
