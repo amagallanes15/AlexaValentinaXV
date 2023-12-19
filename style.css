@@ -31,24 +31,19 @@ body{
 .firstPicName {
     position: relative;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:cursive ;
     color:whitesmoke; 
     font-size: 120px; 
     width: 100%;
     white-space: nowrap;
     display: inline-block;
     border-radius: 25px;
-    /**/
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .overlay-name {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-text-stroke: 4px rgb(85, 72, 119); 
 }
 .center {
     display: block;
@@ -66,10 +61,10 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive;
     text-align: center;
-    font-size: 60px;
-    color: rgb(148, 90, 195);
+    font-size: 80px;
+    color: rgb(22, 96, 69);
     border-radius: 25px;
 }
 .line2{
@@ -82,9 +77,26 @@ body{
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 80px;
-    color: rgb(63, 22, 96);
+    font-size: 60px;
+    color: rgb(45, 9, 86);
     border-radius: 25px;
+}
+.date{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0,7), 
+    rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(45, 9, 86);
+    border-radius: 25px;
+}
+.heart{
+    color: #6188be;
 }
 .link1{
     width: 100%;
@@ -97,7 +109,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(45, 9, 86);
     border-radius: 25px;
 }
 .link2{
@@ -111,7 +123,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(45, 9, 86);
     border-radius: 25px;
 }
 .title{
@@ -143,13 +155,21 @@ ul li{
 li span{
     display: block;
     font-size: 80px;
-    color: blueviolet;
+    color: rgb(63, 22, 96);
 }
 li.separator{
     margin: 0 20px;
     font-size: 3rem;
     line-height: 2.5;
     color: rgb(45, 9, 86);
+}
+.counterText{
+    margin: 0 20px;
+    font-size: 3rem;
+    line-height: 2.5;
+    color: rgb(22, 96, 69);
+    font-family: cursive;
+    font-size: 80px;
 }
 li:first-of-type{
     margin-right: 5rem;
@@ -162,13 +182,13 @@ li:first-of-type{
     background-position: center;
     background-size: cover;
     position: relative;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     border-radius: 25px;
 }
 /*Buttons*/
 .button {
-    border: 2px solid rgb(170, 69, 136);;
+    border: 2px solid rgb(170, 69, 136);
     background-color: rgb(205, 114, 188);
     padding: 15px 32px;
     text-align: center;
@@ -179,9 +199,11 @@ li:first-of-type{
     cursor: pointer;
     border-radius: 5px;
 }
-/*section disaperance*/
-.firstPicName.show {
-    opacity: 1;
-    transform: translateY(0);
-}
+.line {
+    border-bottom: 2px solid rgb(170, 69, 136);
+    margin-top: 2px;
+    width: 60%;
 
+    
+    
+}

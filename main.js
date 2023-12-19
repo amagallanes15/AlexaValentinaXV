@@ -40,8 +40,7 @@ function formatNumber(number){
 countdown()
 //sections disapearence
 // Get the element to animate
-const element = document.querySelector('.firstPicName');
-const element2 = document.querySelector('.link2');
+const element = document.querySelector('.overlay-name');
 // Define the options for the Intersection Observer
 const options = {
   root: null,
@@ -64,4 +63,3 @@ const observer = new IntersectionObserver(function(entries, observer) {
 
 // Start observing the element
 observer.observe(element);
-observer.observe(element2);
