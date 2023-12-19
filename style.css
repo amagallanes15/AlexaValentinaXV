@@ -38,6 +38,10 @@ body{
     white-space: nowrap;
     display: inline-block;
     border-radius: 25px;
+    /**/
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .overlay-name {
     position: absolute;
@@ -151,7 +155,6 @@ li:first-of-type{
     margin-right: 5rem;
 }
 .countdownSec{
-    min-height: 30vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0,7), 
     rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
@@ -175,4 +178,10 @@ li:first-of-type{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-  }
+}
+/*section disaperance*/
+.firstPicName.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+

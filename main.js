@@ -22,7 +22,7 @@ function countdown(){
         secs.innerText = formatNumber(Math.floor((distance%minute)/second))
         
         if(distance < 0){
-            document.getElementById('countdown').style.display = 'none'
+            document.getElementById('countdown').style.display = 'Time to Party!!!'
             clearInterval(interval)
         }
     
@@ -38,3 +38,30 @@ function formatNumber(number){
 }
 
 countdown()
+//sections disapearence
+// Get the element to animate
+const element = document.querySelector('.firstPicName');
+const element2 = document.querySelector('.link2');
+// Define the options for the Intersection Observer
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5
+};
+
+// Create a new Intersection Observer
+const observer = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    // If element is in viewport, add the 'show' class to trigger the animation
+    if (entry.isIntersecting) {
+      element.classList.add('show');
+    }
+    else {
+      element.classList.remove('show');
+    }
+  });
+}, options);
+
+// Start observing the element
+observer.observe(element);
+observer.observe(element2);
