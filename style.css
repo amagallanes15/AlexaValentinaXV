@@ -50,7 +50,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    border-radius: 25px;
 }
 /*Information and Link to Location*/
 .line1{
@@ -204,4 +203,11 @@ li:first-of-type{
     margin-top: 2px;
     width: 100%;
 }
-
+.socialMedia{
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}
