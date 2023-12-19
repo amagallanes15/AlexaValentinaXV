@@ -9,6 +9,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+    font-size: calc(15px + 0.390625vw);
 }
 /*First Picture Invitation title*/
 .firstPicName {
