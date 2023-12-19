@@ -16,13 +16,12 @@ body{
 .firstPicName {
     position: relative;
     text-align: center;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color:whitesmoke; 
-    font-size: 110px; 
+    font-size: 120px; 
     width: 100%;
     white-space: nowrap;
     display: inline-block;
-    font-size: 100px;
     border-radius: 25px;
 }
 .overlay-name {
@@ -42,7 +41,7 @@ body{
 }
 /*Information and Link to Location*/
 .line1{
-    min-height: 20vh;
+    min-height: 10vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0,7), 
     rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
@@ -57,7 +56,7 @@ body{
     border-radius: 25px;
 }
 .line2{
-    min-height: 20vh;
+    min-height: 10vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0,7), 
     rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
@@ -65,7 +64,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 80px;
     color: rgb(63, 22, 96);
