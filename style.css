@@ -70,7 +70,6 @@ body{
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0,7), 
     rgba(4,9,30,0,7), url(images/3e6d867d-0c66-440e-b450-f077b0f494b3.jpg));
-    
     background-position: center;
     background-size: cover;
     position: relative;
@@ -211,4 +210,26 @@ li:first-of-type{
     position: relative;
     text-align: center;
     border-radius: 25px;
+}
+.question{
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(45, 9, 86);
+    text-align: left;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.answers{
+    font-size: 30px;
+    color: rgb(45, 9, 86);
+    text-align: left;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nameInput{
+    font-size: 30px;
+    color: rgb(45, 9, 86);
+    text-align: left;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

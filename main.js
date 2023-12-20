@@ -63,3 +63,11 @@ const observer = new IntersectionObserver(function(entries, observer) {
 
 // Start observing the element
 observer.observe(element);
+
+//form
+const form = document.getElementById("confirmation");
+
+form.addEventListener("submit",(e) => {
+    e.preventDefault();
+    console.log("Gracias!")
+});

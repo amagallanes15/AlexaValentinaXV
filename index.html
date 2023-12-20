@@ -146,8 +146,35 @@
         <section class=socialMedia>
             <div class="section2"> 
                 <div class="title">Confirma tu Asistencia<br></div>
-                <div class="line2" style="font-size: 40px; ">Porfavor completa y envia el siguiente formulario.</div>
-                  
+                <div class="line2" style="font-size: 40px;">Porfavor completa y envia el siguiente formulario.</div><br>
+                <form id="confirmation">
+                    <div class="d-flex">
+                        <div class="nameInput">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="name">
+                        </div><br>
+                        <div class="question">
+                        <p>Podras asistir?</p></div>
+                            <div class="answers">
+                                <label>
+                                    <input type="radio" name="q1">
+                                    Si, ahi nos vemos!
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="q1">
+                                    No estoy seguro!
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="q1">
+                                    No podre!
+                                </label>
+                            </div>
+                        
+                    </div>
+                    <button type="submit" class="button">Enviar</button>
+                </form>
             </div><br>
         </section><br>
 
