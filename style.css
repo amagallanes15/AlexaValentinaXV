@@ -211,25 +211,13 @@ li:first-of-type{
     text-align: center;
     border-radius: 25px;
 }
-.question{
-    text-decoration: underline;
-    font-size: 30px;
-    color: rgb(45, 9, 86);
-    text-align: left;
-    margin-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.answers{
-    font-size: 30px;
-    color: rgb(45, 9, 86);
-    text-align: left;
-    margin-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.nameInput{
-    font-size: 30px;
-    color: rgb(45, 9, 86);
-    text-align: left;
-    margin-left: 15%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.createdByMe{
+    background-color: rgb(211, 190, 246);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
 }
